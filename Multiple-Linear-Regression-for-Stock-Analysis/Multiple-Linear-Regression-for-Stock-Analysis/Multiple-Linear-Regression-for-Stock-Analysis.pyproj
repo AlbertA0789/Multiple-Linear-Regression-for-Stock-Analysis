@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataPreprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Multiple_Linear_Regression_for_Stock_Analysis.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
